@@ -1,0 +1,27 @@
+<html>
+<head>
+
+</head>
+<body>
+<center>
+<p>name =</p>
+<p id="u"></P>
+
+
+<p id="y">Your age is :</p>
+
+</center>
+<script>
+
+var name = prompt("enter name")
+var age = new Date(prompt("enter age"))
+var currentage = new Date()
+var z = currentage.getFullYear() - age.getFullYear()
+document.getElementById("u").innerHTML=name;
+
+document.getElementById("y").innerHTML=z;
+
+
+</script>
+</body>
+</html>

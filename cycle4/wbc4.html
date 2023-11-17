@@ -1,0 +1,26 @@
+<html>
+<head>
+<script>
+function add()
+{
+
+  var numOne = parseInt(document.getElementById("first").value);
+  
+  if(numOne<0){
+  
+  document.getElementById("answer").innerHTML="number is -ve";
+}
+else{
+  document.getElementById("answer").innerHTML="number is +ve";
+  }
+  }
+</script>
+</head>
+<body>
+
+<p>Enter the  Number: <input id="first"></p>
+<button onclick="add()">check</button>
+<p id="answer"></p>
+
+</body>
+</html>
